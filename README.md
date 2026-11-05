@@ -25,12 +25,32 @@ Every network site uses the **main influUGC identity** — no distinct designs:
 
 | File | What |
 |---|---|
-| `index.html` | Arabic-first landing (RTL): hero, client proof strip, 6 production services (commercial production, brand films, cinematic social content, product videos, event coverage, post-production), selected works (realme 2024 promo, Domino's 2024 commercial, flynas 2023 corporate video), why influUGC (with the in-body editorial link to influugc.com), 4-step production process (pre-production → shoot → post → delivery), 6-question answer-first FAQ, contact/CTA band, network footer. |
-| `en.html` | Full English mirror (LTR), same structure, works and FAQ. |
+| `index.html` | Arabic-first landing (RTL): hero, client proof strip, **guides section (3 guides, see retrofit note below)**, 6 production services (commercial production, brand films, cinematic social content, product videos, event coverage, post-production), selected works (realme 2024 promo, Domino's 2024 commercial, flynas 2023 corporate video), why influUGC (with the in-body editorial link to influugc.com), 4-step production process (pre-production → shoot → post → delivery), 6-question answer-first FAQ, contact/CTA band, network footer. |
+| `en.html` | Full English mirror (LTR), same structure, guides, works and FAQ. |
 | `404.html` | Branded not-found page (Arabic). |
 
 Plus: `styles.css`, `favicon.svg` (black screen-frame + lime play mark),
 `sitemap.xml` (hreflang-annotated), `robots.txt`, `llms.txt`.
+
+## Content retrofit (Nov 6, 2026 — content-first model)
+
+Retrofitted to the owner's Nov 6 content-first model (sites lead with useful
+content for search engines and AI answers, with influUGC's services and real
+work woven in), following the aistore guides pattern: a **Guides** section now
+opens the page flow (after the proof strip, before Services), with three
+substantive, answer-first guides as anchor-linked on-page blocks, in both
+languages:
+
+1. `#guide-brief` — how to write a production brief for a commercial.
+2. `#guide-shoot` — what a one-day shoot actually involves (schedule, crew, deliverables).
+3. `#guide-rights` — video usage rights for ads, explained.
+
+Each guide closes with a woven-in Filmorax/influUGC line + the standard
+central CTAs (booking + WhatsApp, `utm_source=filmorax`). No invented
+statistics. Section numbering shifted (Guides 01 → Services 02 → Works 03 →
+Why 04 → Process 05 → FAQ 06); header nav and footer nav link the guides;
+`llms.txt` carries guide summaries with UTM CTAs. Guide blocks are on-page
+anchors, so `sitemap.xml` is unchanged.
 
 ## SEO / GEO
 
