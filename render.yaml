@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: filmorax
+    runtime: static
+    buildCommand: ""
+    staticPublishPath: .
