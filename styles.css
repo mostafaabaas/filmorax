@@ -232,3 +232,9 @@ h1,h2,h3{font-family:var(--font-display);font-weight:700}
   .btn,.svc-card,.guide-card,.step,.city{transition:none}
   .btn:hover,.svc-card:hover,.guide-card:hover{transform:none}
 }
+
+/* works materials (content wave 2026-11-07) */
+.works-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:20px}
+.work-item{margin:0}
+.work-item video{width:100%;aspect-ratio:16/9;object-fit:cover;border-radius:var(--radius,16px);border:1px solid var(--line,rgba(127,127,127,.25));background:#000;display:block}
+.work-item figcaption{margin-top:8px;font-size:14px;opacity:.85}
